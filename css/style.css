@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family:"Campton Light DEMO";
+	src: url("../font/Rene Bieder - Campton Light DEMO.otf");}
+
+
+
+#wrapper{
+	width:100%;
+	height:auto;
+	margin: 0;
+	padding: 0;}
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color:#000000;}
+
+			header{
+				width: 100%;
+				height: 50px;
+				background: rgba(199,199,199,0.50);
+				border-top: solid;
+				border-top-color: #FFFFFF;
+				border-bottom: solid;
+				border-bottom-color: #FFFFFF;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 20;}
+			nav{
+				width: 1000px;
+				height: 50px;
+				margin: auto;}
+			nav a{
+				display: block;
+				float: left;
+				width: 200px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-family:"Campton Light DEMO", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+				font-size: 1.5em;
+				color: #FFFFFF;
+				margin:0;}
+			nav a:hover{
+				background:#DADADA;}
+			.space{
+				display: block;
+				width: 153px;
+				height: 50px;
+				float: left;}
+			.logo{
+				position: fixed;
+				width: 127px;
+				height: 95px;
+				top: 0;
+				left: 50%;
+				margin: 20px 0 0 -85px;
+				z-index: 200;
+				background:url(../img/Logo.png) no-repeat;
+				background-size: contain;
+				border: solid;
+				border-color: aliceblue;
+				border-width: 3px;}
+
+
+
+#welcome{
+	max-width:100%;
+	height:109vh;
+	margin:0;
+	padding: 0;
+	background: url(../img/welcome1.png) center;
+	background-size: cover;}
+.presents{
+	max-width:1300px;
+	height:310px;
+	margin:auto;
+	position: relative;
+	top:61%;}
+.presents img{
+	width:100%;
+	height: 100%;}
+
+
+			#pagelinks{
+				width:100%;
+				height:100vh;
+				margin: 0;
+				padding: 0;
+				background:url(../img/black.png);
+				background-size:contain;}
+			.container1{
+				width:75%;
+				height:80%;
+				margin:auto;
+				position: relative;
+				top:10%;}
+			.vid1{
+				width:40%;
+				height:350px;
+				margin:0;
+				background-color: crimson;
+				float:left;}
+			.vid1 img{
+				width:100%;
+				height:100%;}
+			.vid2{
+				width:40%;
+				height:350px;
+				background-color:darkgoldenrod;
+				float:left;
+				margin:0 0 0 20%;}
+			.vid2 img{
+				width:100%;
+				height:100%;}
+			.vid3{
+				width:40%;
+				height:350px;
+				margin:6.6% 0 0 0;
+				background-color:blue;
+				float:left;	}
+			.vid3 img{
+				width:100%;
+				height:100%;}
+			.vid4{
+				width:40%;
+				height:350px;
+				background-color:darkgreen;
+				float:left;
+				margin:6.6% 0 0 20%;}
+			.vid4 img{
+				width:100%;
+				height:100%;}
+
+
+
+#heart{
+	width: 100%;
+	height:100vh;
+	position: relative;
+	margin: 0;
+	padding: 0;}
+#heart img{
+	width:100%;
+	height:100%;
+}
+
+.award{
+	max-width:1200px;
+	height:150px;
+	margin:auto;
+	position: relative;
+	bottom:43%;}
+.award img{
+	width:100%;
+	height:100%;}
+
+
+
+					#reviews{
+						width:100%;
+						height:100vh;
+						margin: 0% 0 0 0;
+						padding: 0;
+						position: relative;
+						bottom:0;
+						background:url(../img/black.png);
+						background-size:contain;
+						z-index:-10;}
+					.container2{
+						width:90%;
+						height:80%;
+						position: relative;
+						top:12%;
+						margin:auto;
+						padding:0;}
+					.brackets{
+						font-family:Cambria, "Hoefler Text", "Liberation Serif";}
+					.container2 p{
+						font-family: "Campton Light DEMO";
+						font-size: 3em;
+						color:#FFFFFF;
+						text-align: left;}
+					.review1{
+						width:40%;
+						height:350px;
+						margin:0;
+						padding:0;
+						float:left;}
+					.review2{
+						width:40%;
+						height:350px;
+						margin:0 0 0 0;
+						padding:0;
+						float:right;}
+					.review3{
+						width:40%;
+						height:350px;
+						margin:5.4% 0 0 0;
+						padding:0;
+						float:left;	}
+					.review4{
+						width:40%;
+						height:350px;
+						margin:5.4% 0 0 0;
+						padding:0;
+						float:right;}
+
+
+		#crowd{
+			width:100%;
+			height:100vh;
+			position: relative;
+			margin:11% 0 0 0;
+			padding:0;
+			background: url(../img/crowd.png)no-repeat;
+			background-size: cover;
+			}
+		.container3{
+			width:1300px;
+			height:250px;
+			position: relative;
+			top:15%;
+			margin:auto;}
+		.container3 p{
+			font-family: "Campton Light DEMO";
+			font-size: 4em;
+			color:#FFFFFF;
+			text-align: center;}
+		.container3 a{
+			text-decoration: none;
+			text-decoration-style: none;
+			font-style: none;
+			color:#FFFFFF;}
+		.ledh{
+			width:20%;
+			height:150px;
+			margin:auto;}
+		.ledh img{
+			width:100%;
+			height:auto;
+			overflow: auto;
+			position: relative;
+			top:110%;}
+
+
+
+
+
+footer{
+	width:100%;
+	height:510px;
+	margin:0;
+	padding:0;
+	background:url(../img/footer.png)no-repeat;
+	background-size: cover;}
+
+.charity{
+	width:20%;
+	height:480px;
+	float:left;
+	margin:1.5% 0 0 0;
+	padding:0;
+	background-color: aqua;}
+.panda{
+	width:100%;
+	height:160px;
+	margin:0;
+	padding:0;
+	background: rgba(255,0,4,1.00);
+	float: left;}
+.unicef{
+	width:100%;
+	height:160px;
+	margin:0;
+	padding:0;
+	background: rgba(13,99,42,1.00);
+	float:left;}
+.greenpeace{
+	width:100%;
+	height:160px;
+	margin:0;
+	padding:0;
+	background:rgba(28,11,116,1.00);
+	float:left;}
+
+
+.middle{
+	width:60%;
+	height:480px;
+	margin:1.5% 0 0 0;
+	padding:0;
+	float:left;
+	background: rgba(229,228,5,1.00);}
+
+.right{
+	width:20%;
+	height:480px;
+	margin:1.5% 0 0 0;
+	padding:0;
+	float:left;
+	background:rgba(83,0,200,1.00);
+}
+
+
+
+
+@media (max-width:700px){
+	
+}
+	
+	
+		
+	
+
