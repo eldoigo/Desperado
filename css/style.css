@@ -73,119 +73,203 @@ body{
 
 #welcome{
 	max-width:100%;
-	height:109vh;
-	margin:0;
+	height:1000px;
+	margin:0 0 0.5% 0;
 	padding: 0;
-	background: url(../img/welcome1.png) center;
+	background: url(../img/welcome1.png) no-repeat;
 	background-size: cover;}
 .presents{
-	max-width:1300px;
-	height:310px;
+	max-width:80%;
+	height:auto;
+	overflow: auto;
 	margin:auto;
 	position: relative;
-	top:61%;}
-.presents img{
+	top:61%;
+/*	background-image: url(../img/presents.png);
+	background-repeat: no-repeat;
+*/
+}
+	.presents img{
 	width:100%;
-	height: 100%;}
+	height: auto;}
 
 
 			#pagelinks{
 				width:100%;
-				height:100vh;
-				margin: 0;
-				padding: 0;
-				background:url(../img/black.png);
-				background-size:contain;}
+				height:auto;
+				overflow:auto;
+				margin: 0 0 0.5% 0;
+				padding: 10% 0 10% 0;
+				background:url(../img/black.png)no-repeat;
+				background-size:cover;}
 			.container1{
 				width:75%;
 				height:80%;
 				margin:auto;
 				position: relative;
 				top:10%;}
+			.container1 p{
+				font-family:"Campton Light DEMO";
+				text-decoration:none;
+				text-decoration-style:none;
+				font-size: 2em;
+				font-style:none;
+				color:#FFFFFF;
+				text-align: center;
+				margin:40% 0 0 0;}
 			.vid1{
 				width:40%;
 				height:350px;
 				margin:0;
+				padding:0;
 				background-color: crimson;
-				float:left;}
-			.vid1 img{
-				width:100%;
-				height:100%;}
+				float:left;
+				background-image: url(../img/index-pic1.jpg);
+				background-size:cover;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-style: none;
+				outline: none !important;
+				position: relative}
+				.vid1:hover{
+					opacity: 0.6;
+					transition: 0.6s;}
+				.vid1 p{
+					width: 100%;
+					text-align: center;
+					text-decoration: none;
+					text-decoration-style: none;
+					font-style: none;
+					outline: none !important;
+					margin:0;
+					position: absolute;
+					bottom:0;}
 			.vid2{
 				width:40%;
 				height:350px;
 				background-color:darkgoldenrod;
 				float:left;
-				margin:0 0 0 20%;}
-			.vid2 img{
-				width:100%;
-				height:100%;}
+				margin:0 0 0 20%;
+				background-image: url(../img/index-pic3.jpg);
+				background-size:cover;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-style: none;
+				outline: none !important;
+				position: relative;}
+				.vid2:hover{
+					opacity: 0.6;
+					transition: 0.6s;}
+				.vid2 p{
+					width: 100%;
+					text-align: center;
+					text-decoration: none;
+					text-decoration-style: none;
+					font-style: none;
+					outline: none !important;
+					margin:0;
+					position: absolute;
+					bottom:0;}
 			.vid3{
 				width:40%;
 				height:350px;
 				margin:6.6% 0 0 0;
 				background-color:blue;
-				float:left;	}
-			.vid3 img{
-				width:100%;
-				height:100%;}
+				float:left;
+				background-image: url(../img/index-pic4.1.jpg);
+				background-size:cover;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-style: none;
+				outline: none !important;
+				position:relative;}
+				.vid3:hover{
+					opacity: 0.6;
+					transition: 0.6s;}
+				.vid3 p{
+					width: 100%;
+					text-align: center;
+					text-decoration: none;
+					text-decoration-style: none;
+					font-style: none;
+					outline: none !important;
+					margin:0;
+					position: absolute;
+					bottom:0;}
 			.vid4{
 				width:40%;
 				height:350px;
 				background-color:darkgreen;
 				float:left;
-				margin:6.6% 0 0 20%;}
-			.vid4 img{
-				width:100%;
-				height:100%;}
+				margin:6.6% 0 0 20%;
+				background-image: url(../img/index-pic2.jpg);
+				background-size:cover;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-style: none;
+				outline: none !important;
+				position:relative;}
+				.vid4:hover{
+					opacity: 0.6;
+					transition: 0.6s;}
+				.vid4 p{
+					width: 100%;
+					text-align: center;
+					text-decoration: none;
+					text-decoration-style: none;
+					font-style: none;
+					outline: none !important;
+					margin:0;
+					position: absolute;
+					bottom:0;}
+			
 
 
 
 #heart{
 	width: 100%;
-	height:100vh;
-	position: relative;
-	margin: 0;
-	padding: 0;}
-#heart img{
-	width:100%;
-	height:100%;
-}
-
+	height:800px;
+	position:relative;
+	margin:0;
+	padding:2.5% 0 0 0;
+	background:url(../img/direct-link12.png)no-repeat fixed center;
+	background-size:cover;}
 .award{
 	max-width:1200px;
 	height:150px;
 	margin:auto;
-	position: relative;
-	bottom:43%;}
-.award img{
-	width:100%;
-	height:100%;}
-
+	position: absolute;
+	bottom:50%;
+	left:50%;
+	transform: translate(-50%,0)}
+.award p{
+	font-family:"Campton Light DEMO";
+	font-size:4em;
+	color:#FFFFFF;
+	text-align:center;
+	text-shadow: -3px -3px 5px #000000;}
+	
 
 
 					#reviews{
 						width:100%;
-						height:100vh;
-						margin: 0% 0 0 0;
-						padding: 0;
-						position: relative;
-						bottom:0;
-						background:url(../img/black.png);
-						background-size:contain;
-						z-index:-10;}
+						height:865px;
+						margin:0.5% 0 0;
+						padding:0 0 0 0;
+						background:url(../img/black.png)no-repeat;
+						background-size:cover;}
 					.container2{
-						width:90%;
-						height:80%;
+						width:80%;
+						height:720px;
 						position: relative;
-						top:12%;
+						top:8%;
 						margin:auto;
 						padding:0;}
 					.brackets{
 						font-family:Cambria, "Hoefler Text", "Liberation Serif";}
 					.container2 p{
 						font-family: "Campton Light DEMO";
-						font-size: 3em;
+						font-size: 40px;
 						color:#FFFFFF;
 						text-align: left;}
 					.review1{
@@ -216,16 +300,14 @@ body{
 
 		#crowd{
 			width:100%;
-			height:100vh;
-			position: relative;
-			margin:11% 0 0 0;
+			height:800px;
+			margin:8% 0 0 0;
 			padding:0;
-			background: url(../img/crowd.png)no-repeat;
-			background-size: cover;
-			}
+			background: url(../img/crowd.png)no-repeat center fixed;
+			background-size: cover;}
 		.container3{
-			width:1300px;
-			height:250px;
+			width:100%;
+			height:150px;
 			position: relative;
 			top:15%;
 			margin:auto;}
@@ -242,21 +324,18 @@ body{
 		.ledh{
 			width:20%;
 			height:150px;
-			margin:auto;}
+			margin:auto;
+			padding:9% 0 0 0;}
 		.ledh img{
 			width:100%;
-			height:auto;
-			overflow: auto;
-			position: relative;
-			top:110%;}
-
-
-
+			height:auto;}
+	
 
 
 footer{
 	width:100%;
-	height:510px;
+	height:auto;
+	overflow:auto;
 	margin:0;
 	padding:0;
 	background:url(../img/footer.png)no-repeat;
@@ -264,58 +343,527 @@ footer{
 
 .charity{
 	width:20%;
-	height:480px;
+	height:auto;
 	float:left;
 	margin:1.5% 0 0 0;
 	padding:0;
-	background-color: aqua;}
+	position: relative;}
 .panda{
-	width:100%;
-	height:160px;
+	width:30%;
+	height:auto;
+	overflow:auto;
 	margin:0;
-	padding:0;
-	background: rgba(255,0,4,1.00);
-	float: left;}
+	padding:8% 0 0 25%;
+	float: left;
+	text-align:center;}
+.panda img{
+	width:100%;
+	height:auto;}
 .unicef{
-	width:100%;
-	height:160px;
+	width:60%;
+	height:auto;
+	overflow:auto;
 	margin:0;
-	padding:0;
-	background: rgba(13,99,42,1.00);
+	padding:10% 0 0 20%;
 	float:left;}
+.unicef img{
+	width:100%;
+	height:auto;}
 .greenpeace{
-	width:100%;
-	height:160px;
+	width:90%;
+	height:auto;
+	overflow:auto;
 	margin:0;
-	padding:0;
-	background:rgba(28,11,116,1.00);
+	padding:0 0 0 7%;
 	float:left;}
-
-
+.greenpeace img{
+	width:100%;
+	height:auto;}
 .middle{
 	width:60%;
-	height:480px;
+	height:300px;
 	margin:1.5% 0 0 0;
 	padding:0;
+	float:left;}
+.des{
+	width:100%;
+	height:auto;
+	overflow:auto;
+	margin:0;
+	padding:0;
+	text-align:center;}
+.des img{
+	width:23%;
+	height:auto;}
+.pepsi{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
 	float:left;
-	background: rgba(229,228,5,1.00);}
+	text-align:center;}
+.pepsi img{
+	width:50%;
+	height:auto;}
+.carls{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.carls img{
+	width:50%;
+	height:auto;}
+.relent{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.relent img{
+	width:50%;
+	height:auto;}
+.ticketmaster{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.ticketmaster img{
+	width:50%;
+	height:auto;}
+.subs2{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	position: relative;
+	left:12%;}
+.samsung{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.samsung img{
+	width:50%;
+	height:auto;}
+.radio1{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.radio1 img{
+	width:50%;
+	height:auto;}
+.radio11{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.radio11 img{
+	width:50%;
+	height:auto;}
+
+.copyright{
+	width:80%;
+	height:15px;
+	position: relative;
+	margin:0;
+	padding:22% 0 0 0;
+	left:10%;
+	top:7%}
+.copyright p{
+	font-family:"Campton Light DEMO", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:10px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
 
 .right{
 	width:20%;
-	height:480px;
+	height:auto;
+	overflow:auto;
 	margin:1.5% 0 0 0;
 	padding:0;
 	float:left;
-	background:rgba(83,0,200,1.00);
-}
-
-
-
-
-@media (max-width:700px){
+	background:rgba(83,0,200,1.00);}
+.follow{
+	width:100%;
 	
 }
+
+
+@media (max-width:1300px){
+	.ledh{
+			width:20%;
+			height:150px;
+			margin:auto;
+			padding:12% 0 0 0;
+	}
+}
+
+@media (max-width:1095px){
 	
+		.container2{
+		width:80%;
+		height:720px;
+		position: relative;
+		top:4%;
+		margin:auto;
+		padding:0;}
+	.ledh{
+			width:20%;
+			height:150px;
+			margin:auto;
+			padding:16% 0 0 0;}
+	}
+@media (max-width:872px){
+	
+		.container2{
+						width:80%;
+						height:720px;
+						position: relative;
+						top:2%;
+						margin:auto;
+						padding:0;}
+	}
+	
+
+   /*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*/                       /*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*/
+
+
+@media (max-width:800px){
+	
+				header{
+				width: 100%;
+				height: 200px;
+				background: rgba(199,199,199,0.50);
+				border-top: solid;
+				border-top-color: #FFFFFF;
+				border-bottom: solid;
+				border-bottom-color: #FFFFFF;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 20;}
+			nav{
+				width: 1000px;
+				height: 50px;
+				margin: auto;}
+			nav a{
+				display: none;
+				float: left;
+				width: 200px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-family:"Campton Light DEMO", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+				font-size: 1.5em;
+				color: #FFFFFF;
+				margin:0;}
+			nav a:hover{
+				background:#DADADA;}
+			.space{
+				display: block;
+				width: 153px;
+				height: 50px;
+				float: left;}
+			.logo{
+				position: fixed;
+				width: 107px;
+				height: 75px;
+				top:0;
+				left:0;
+				margin:0;
+				z-index: 200;
+				background:url(../img/Logo.png) no-repeat;
+				background-size: cover;
+				border: solid;
+				border-color: aliceblue;
+				border-width: 3px;}
+
+#welcome{
+	width:100%;
+	height:800px;
+	margin:0 0 0.5% 0;
+	padding: 0;
+	background: url(../img/welcome1.png) no-repeat center;
+	background-size: cover;}
+.presents{
+	max-width:100%;
+	height:auto;
+	overflow: auto;
+	margin:auto;
+	position: relative;
+	top:61%;}
+	.presents img{
+	width:100%;
+	height: auto;}
+	
+	
+					#reviews{
+						width:100%;
+						height:865px;
+						margin:0.5% 0 0;
+						padding:0 0 0 0;
+						background:url(../img/black.png)no-repeat;
+						background-size:cover;}
+					.container2{
+						width:100%;
+						height:auto;
+						overflow:auto;
+						position: relative;
+						margin:auto;
+						padding:0;}
+					.brackets{
+						font-family:Cambria, "Hoefler Text", "Liberation Serif";}
+					.container2 p{
+						font-family: "Campton Light DEMO";
+						font-size: 22px;
+						color:#FFFFFF;
+						text-align: center;}
+					.review1{
+						width:100%;
+						height:auto;
+						margin:0;
+						padding:0;
+						float:left;}
+					.review2{
+						width:100%;
+						height:auto;
+						margin:10% 0 0 0;
+						padding:0;
+						float:left;}
+					.review3{
+						width:100%;
+						height:auto;
+						margin:10% 0 0 0;
+						padding:0;
+						float:left;	}
+					.review4{
+						width:100%;
+						height:auto;
+						margin:10% 0 0 0;
+						padding:0;
+						float:left;}
+
+	
+	#pagelinks{
+				width:100%;
+				height:auto;
+				overflow:auto;
+				margin: 0 0 0.5% 0;
+				padding: 20% 0 10% 0;
+				background:url(../img/black.png)no-repeat;
+				background-size:cover;}
+			.container1{
+				width:100%;
+				height:auto;
+				overflow:auto;
+				margin:auto;
+				position: relative;
+				top:10%;}
+			.container1 p{
+				font-family:"Campton Light DEMO";
+				text-decoration:none;
+				text-decoration-style:none;
+				font-size: 1.5em;
+				font-style:none;
+				color:#FFFFFF;
+				text-align: center;
+				margin:40% 0 0 0;}
+			.vid1{
+				width:80%;
+				height:225px;
+				margin:auto;
+				padding:0;
+				position: relative;
+				left:11%;
+				background-color: crimson;
+				float:left;
+				text-align: center;
+				background-image: url(../img/index-pic1.jpg);
+				background-size:cover;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-style: none;
+				outline: none !important;}
+				.vid1:hover{
+					opacity: 0.6;
+					transition: 0.6s;}
+				.vid1 p{
+					width: 100%;
+					text-align: center;
+					text-decoration: none;
+					text-decoration-style: none;
+					font-style: none;
+					outline: none !important;
+					margin:0;
+					position: absolute;
+					bottom:0;}
+			.vid2{
+				width:80%;
+				height:225px;
+				background-color:darkgoldenrod;
+				float:left;
+				margin:10% 0 0 0;
+				position: relative;
+				left:11%;
+				background-image: url(../img/index-pic3.jpg);
+				background-size:cover;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-style: none;
+				outline: none !important;}
+				.vid2:hover{
+					opacity: 0.6;
+					transition: 0.6s;}
+				.vid2 p{
+					width: 100%;
+					text-align: center;
+					text-decoration: none;
+					text-decoration-style: none;
+					font-style: none;
+					outline: none !important;
+					margin:0;
+					position: absolute;
+					bottom:0;}
+			.vid3{
+				width:80%;
+				height:225px;
+				margin:10% 0 0 0;
+				position: relative;
+				left:11%;
+				background-color:blue;
+				float:left;
+				background-image: url(../img/index-pic4.1.jpg);
+				background-size:cover;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-style: none;
+				outline: none !important;}
+				.vid3:hover{
+					opacity: 0.6;
+					transition: 0.6s;}
+				.vid3 p{
+					width: 100%;
+					text-align: center;
+					text-decoration: none;
+					text-decoration-style: none;
+					font-style: none;
+					outline: none !important;
+					margin:0;
+					position: absolute;
+					bottom:0;}
+			.vid4{
+				width:80%;
+				height:225px;
+				background-color:darkgreen;
+				float:left;
+				margin:10% 0 0 0;
+				position: relative;
+				left:11%;
+				background-image: url(../img/index-pic2.jpg);
+				background-size:cover;
+				text-decoration: none;
+				text-decoration-style: none;
+				font-style: none;
+				outline: none !important;}
+				.vid4:hover{
+					opacity: 0.6;
+					transition: 0.6s;}
+				.vid4 p{
+					width: 100%;
+					text-align: center;
+					text-decoration: none;
+					text-decoration-style: none;
+					font-style: none;
+					outline: none !important;
+					margin:0;
+					position: absolute;
+					bottom:0;}
+	
+	#heart{
+	width: 100%;
+	height:800px;
+	position:relative;
+	margin:0;
+	padding:2.5% 0 0 0;
+	background:url(../img/direct-link12.png)no-repeat fixed center;
+	background-size:cover;}
+.award{
+	max-width:1200px;
+	height:150px;
+	margin:auto;
+	position: absolute;
+	bottom:65%;
+	left:50%;
+	transform: translate(-50%,0)}
+.award p{
+	font-family:"Campton Light DEMO";
+	font-size:50px;
+	color:#FFFFFF;
+	text-align:center;
+	text-shadow: -3px -3px 5px #000000;}}
+
+		
+		#crowd{
+			width:100%;
+			height:800px;
+			margin:8% 0 0 0;
+			position: relative;
+			padding:0;
+			background: url(../img/crowd.png)no-repeat center fixed;
+			background-size: cover;}
+		.container3{
+			width:100%;
+			height:150px;
+			position: relative;
+			top:15%;
+			margin:auto;}
+		.container3 p{
+			font-family: "Campton Light DEMO";
+			font-size: 3em;
+			color:#FFFFFF;
+			text-align: center;}
+		.container3 a{
+			text-decoration: none;
+			text-decoration-style: none;
+			font-style: none;
+			color:#FFFFFF;}
+		.ledh{
+			width:50%;
+			height:auto;
+			overflow:Auto;
+			position: absolute;
+			bottom:10%;
+			left:25%;
+			margin:auto;
+			padding:0 0 0 0;}
+		.ledh img{
+			width:100%;
+			height:auto;}
+
+
+
+
+
+
+
+
+
 	
 		
 	
