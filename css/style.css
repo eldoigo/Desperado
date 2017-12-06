@@ -69,7 +69,9 @@ body{
 				border-color: aliceblue;
 				border-width: 3px;}
 
-
+.resp-men-but, .resp-menu{
+	display: none;
+}
 
 #welcome{
 	max-width:100%;
@@ -253,7 +255,8 @@ body{
 
 					#reviews{
 						width:100%;
-						height:865px;
+						height:1000px;
+						
 						margin:0.5% 0 0;
 						padding:0 0 0 0;
 						background:url(../img/black.png)no-repeat;
@@ -262,7 +265,7 @@ body{
 						width:80%;
 						height:720px;
 						position: relative;
-						top:8%;
+						top:14%;
 						margin:auto;
 						padding:0;}
 					.brackets{
@@ -281,7 +284,9 @@ body{
 					.review2{
 						width:40%;
 						height:350px;
-						margin:0 0 0 0;
+						margin:0 0 0 0%;
+						position: relative;
+						left:10%;
 						padding:0;
 						float:right;}
 					.review3{
@@ -295,13 +300,33 @@ body{
 						height:350px;
 						margin:5.4% 0 0 0;
 						padding:0;
+						position: relative;
+						left:10%;
 						float:right;}
+.cross{
+	width:300px;
+	height:100px;
+	position: relative;
+	bottom:70%;
+	left:3%;}
+.cross img{
+	width:100%;
+	height:auto;}
+.cross1{
+	width:300px;
+	height:100px;
+	position: relative;
+	bottom:70%;
+	left:68%;}
+.cross1 img{
+	width:100%;
+	height:auto;}
 
 
 		#crowd{
 			width:100%;
-			height:800px;
-			margin:8% 0 0 0;
+			height:1000px;
+			margin:15% 0 0 0;
 			padding:0;
 			background: url(../img/crowd.png)no-repeat center fixed;
 			background-size: cover;}
@@ -323,9 +348,9 @@ body{
 			color:#FFFFFF;}
 		.ledh{
 			width:20%;
-			height:150px;
+			height:auto;
 			margin:auto;
-			padding:9% 0 0 0;}
+			padding:11% 0 0 0;}
 		.ledh img{
 			width:100%;
 			height:auto;}
@@ -335,7 +360,7 @@ body{
 footer{
 	width:100%;
 	height:auto;
-	overflow:auto;
+	overflow:hidden;
 	margin:0;
 	padding:0;
 	background:url(../img/footer.png)no-repeat;
@@ -492,15 +517,187 @@ footer{
 .right{
 	width:20%;
 	height:auto;
-	overflow:auto;
 	margin:1.5% 0 0 0;
 	padding:0;
-	float:left;
-	background:rgba(83,0,200,1.00);}
-.follow{
+	float:left;}
+.followlogo{
 	width:100%;
+	height:auto;
+	float:left;
+	margin:0;
+	padding:0;
+	text-align: center;}
+.followlogo p{
+	font-family:"Campton Light DEMO";
+	color: #FFFFFF;
+	font-size:25px;}
+.social{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;}
+.twitter{
+	width:33.3%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;}
+.twitter img{
+	width:100%;
+	height:auto;}
+.facebook{
+	width:33.3%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;}
+.facebook img{
+	width:100%;
+	height:auto;}
+.instagram{
+	width:33.3%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;}
+.instagram img{
+	width:100%;
+	height:auto;}
+.drink{
+	width:80%;
+	height:auto;
+	position: relative;
+	margin:0;
+	padding:19% 0 0 12%;
+	float:left;}
+.drink img{
+	width:100%;
+	height:auto;}
+
+
+
+
+ /*LINE-UP*/  /*LINE-UP*/  /*LINE-UP*/      /*LINE-UP*/  /*LINE-UP*/  /*LINE-UP*/   /*LINE-UP*/  /*LINE-UP*/  /*LINE-UP*/   /*LINE-UP*/  /*LINE-UP*/  /*LINE-UP*/   /*LINE-UP*/  /*LINE-UP*/  /*LINE-UP*/   /*LINE-UP*/  /*LINE-UP*/  /*LINE-UP*/   /*LINE-UP*/  /*LINE-UP*/  /*LINE-UP*/   /*LINE-UP*/  /*LINE-UP*/  /*LINE-UP*/              
+
+#lineup{
+	width:100%;
+	height:1150px;
+	margin:0;
+	padding:0;
+	background:url(../img/black.png)no-repeat;
+	background-size: cover;}
+
+.bands{
+	max-width:1200px;
+	height:auto;
+	margin:auto;
+	position: relative;
+	padding:0;
+	transform: translate(0,15%)}
+.bands img{
+	width:100%;
+	height:auto;}
+
+
+/*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ /*MERCHANDISE*/ 
+
+
+
+#merch {
+	width:100%;
+	height:1300px;
+	margin:0;
+	padding:0;
+	background: url(../img/black.png)no-repeat;
+	background-size:cover;}
+
+.master{
+	width:80%;
+	height:1000px;
+	margin:auto;
+	padding:0;
+	position:relative;
+	transform: translate(0,25%);
+	background-color:coral;
+	}
+.title{
+	width:100%;
+	height:100px;
+	margin:0 0 10% 0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.title p{
+	color:#FFFFFF;
+	font-family:"Campton Light DEMO";
+	font-size:50px;}
+.row1{
+	width:100%;
+	height:400px;
+	margin:5% 0 0 0;
+	padding:0;
+	background-color: blueviolet;
+	float:left;}
+.t1{
+	width:20%;
+	height:400px;
+	background-color: aqua;
+	float:left;
+ 	text-align: center;
+	background:url(../img/blink-front.png)no-repeat;
+	background-size: cover;}
+.t1:hover{
+	background:url(../img/blink-back.png)no-repeat;
+	background-size:cover;
+	transition:0.6s;}
+.row1 p{
+	font-family:"Campton Light DEMO";
+	color:#FFFFFF;
+	font-size:20px;
+	text-align: center;
+	margin:140% 0 0 0;}
+.t2{
+	width:20%;
+	height:400px;
+	margin: 0 0 0 5%;
+	background-color: aqua;
+	float:left;
+ 	text-align: center;
+	background:url(../PS/merchandise/tshirt11.png)center;
+	background-size: cover;}
+.t2:hover{
+	background:url(../img/paramore-back.jpg.png)center;
+	background-size:cover;
+	transition:0.6s;}
+.t3{
+	width:20%;
+	height:400px;
+	margin: 0 0 0 5%;
+	background-color: aqua;
+	float:left;
+ 	text-align: center;
+	background:url(../img/bullet-front.jpg)no-repeat;
+	background-size: cover;}
+.t3:hover{
+	background:url(../img/bullet-back.jpg)center;
+	background-size:cover;
+	transition:0.6s;}
+.t4{
+	width:20%;
+	height:400px;
+	margin: 0 0 0 5%;
+	background-color: aqua;
+	float:left;
+ 	text-align: center;
+	background:url(../img/sum-front.jpg.png)center center;
+	background-size: cover;}
+.t4:hover{
+	background:url(../img/sum-back.jpg.png)center;
+	background-size:cover;
+	transition:0.6s;}
 	
-}
+	
 
 
 @media (max-width:1300px){
@@ -525,7 +722,7 @@ footer{
 			width:20%;
 			height:150px;
 			margin:auto;
-			padding:16% 0 0 0;}
+			padding:20% 0 0 0;}
 	}
 @media (max-width:872px){
 	
@@ -542,11 +739,11 @@ footer{
    /*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*/                       /*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*//*MOBILE SITE*/
 
 
-@media (max-width:800px){
+@media (max-width:1000px){
 	
 				header{
 				width: 100%;
-				height: 200px;
+				height: 80px;
 				background: rgba(199,199,199,0.50);
 				border-top: solid;
 				border-top-color: #FFFFFF;
@@ -556,6 +753,26 @@ footer{
 				top: 0;
 				left: 0;
 				z-index: 20;}
+			
+			.resp-men-but{
+				display: block;
+				width: 80px;
+				height: 80px;
+				background: #FF0004;
+				position: fixed;
+				top: 0;
+				right: 0;
+				border-radius: 10%;
+			}
+			.resp-menu{
+				position: fixed;
+				width: 100%;
+				height: 250px;
+				background: #FF0004;
+				top: 80px;
+				left: 0;
+				z-index: 300;
+			}
 			nav{
 				width: 1000px;
 				height: 50px;
@@ -615,7 +832,7 @@ footer{
 	
 					#reviews{
 						width:100%;
-						height:865px;
+						height:1000px;
 						margin:0.5% 0 0;
 						padding:0 0 0 0;
 						background:url(../img/black.png)no-repeat;
@@ -623,7 +840,7 @@ footer{
 					.container2{
 						width:100%;
 						height:auto;
-						overflow:auto;
+						overflow:hidden;
 						position: relative;
 						margin:auto;
 						padding:0;}
@@ -637,15 +854,15 @@ footer{
 					.review1{
 						width:100%;
 						height:auto;
-						margin:0;
+						margin:10% 0 0 0;
 						padding:0;
 						float:left;}
 					.review2{
 						width:100%;
 						height:auto;
-						margin:10% 0 0 0;
+						margin:10% 11% 0 0;
 						padding:0;
-						float:left;}
+						float:right;}
 					.review3{
 						width:100%;
 						height:auto;
@@ -655,14 +872,33 @@ footer{
 					.review4{
 						width:100%;
 						height:auto;
-						margin:10% 0 0 0;
-						padding:0;
-						float:left;}
-
+						margin:10% 10% 0 0;
+						float:left;
+						transform: translate(-10%,0)}
+.cross{
+	display: none;
+	width:300px;
+	height:100px;
+	position: relative;
+	bottom:70%;
+	left:3%;}
+.cross img{
+	width:100%;
+	height:auto;}
+.cross1{
+	display: none;
+	width:300px;
+	height:100px;
+	position: relative;
+	bottom:70%;
+	left:68%;}
+.cross1 img{
+	width:100%;
+	height:auto;}
 	
 	#pagelinks{
 				width:100%;
-				height:auto;
+				height:1500px;
 				overflow:auto;
 				margin: 0 0 0.5% 0;
 				padding: 20% 0 10% 0;
@@ -674,7 +910,7 @@ footer{
 				overflow:auto;
 				margin:auto;
 				position: relative;
-				top:10%;}
+				top:3%;}
 			.container1 p{
 				font-family:"Campton Light DEMO";
 				text-decoration:none;
@@ -686,7 +922,7 @@ footer{
 				margin:40% 0 0 0;}
 			.vid1{
 				width:80%;
-				height:225px;
+				height:300px;
 				margin:auto;
 				padding:0;
 				position: relative;
@@ -715,7 +951,7 @@ footer{
 					bottom:0;}
 			.vid2{
 				width:80%;
-				height:225px;
+				height:300px;
 				background-color:darkgoldenrod;
 				float:left;
 				margin:10% 0 0 0;
@@ -742,7 +978,7 @@ footer{
 					bottom:0;}
 			.vid3{
 				width:80%;
-				height:225px;
+				height:300px;
 				margin:10% 0 0 0;
 				position: relative;
 				left:11%;
@@ -769,7 +1005,7 @@ footer{
 					bottom:0;}
 			.vid4{
 				width:80%;
-				height:225px;
+				height:300px;
 				background-color:darkgreen;
 				float:left;
 				margin:10% 0 0 0;
@@ -816,7 +1052,7 @@ footer{
 	font-size:50px;
 	color:#FFFFFF;
 	text-align:center;
-	text-shadow: -3px -3px 5px #000000;}}
+	text-shadow: -3px -3px 5px #000000;}
 
 		
 		#crowd{
@@ -858,7 +1094,240 @@ footer{
 
 
 
+footer{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	background:url(../img/footer.png)no-repeat;
+	background-size: cover;}
+.charity{
+	width:50%;
+	height:auto;
+	float:left;
+	margin:10% 0 0 23%;
+	padding:0;
+	position: relative;}
+.panda{
+	width:30%;
+	height:auto;
+	overflow:auto;
+	margin:0;
+	padding:8% 0 0 40%;
+	float: left;
+	text-align:center;}
+.panda img{
+	width:100%;
+	height:auto;}
+.unicef{
+	width:60%;
+	height:auto;
+	overflow:auto;
+	margin:0;
+	padding:10% 0 0 20%;
+	float:left;}
+.unicef img{
+	width:100%;
+	height:auto;}
+.greenpeace{
+	width:90%;
+	height:auto;
+	overflow:auto;
+	margin:0;
+	padding:0 0 0 7%;
+	float:left;}
+.greenpeace img{
+	width:100%;
+	height:auto;}
+.middle{
+	width:80%;
+	height:300px;
+	margin:10% 0 0 10%;
+	padding:0;
+	float:left;}
+.des{
+	width:100%;
+	height:auto;
+	overflow:auto;
+	margin:0 0 5% 0;
+	text-align:center;}
+.des img{
+	width:23%;
+	height:auto;}
+.pepsi{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.pepsi img{
+	width:50%;
+	height:auto;}
+.carls{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.carls img{
+	width:50%;
+	height:auto;}
+.relent{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.relent img{
+	width:50%;
+	height:auto;}
+.ticketmaster{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.ticketmaster img{
+	width:50%;
+	height:auto;}
+.subs2{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	position: relative;
+	left:12%;}
+.samsung{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.samsung img{
+	width:50%;
+	height:auto;}
+.radio1{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.radio1 img{
+	width:50%;
+	height:auto;}
+.radio11{
+	width:25%;
+	height:80px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:center;}
+.radio11 img{
+	width:50%;
+	height:auto;}
 
+.copyright{
+	width:70%;
+	height:15px;
+	position: relative;
+	margin:0;
+	padding:22% 0 0 6%;
+	left:10%;
+	top:7%}
+.copyright p{
+	font-family:"Campton Light DEMO", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:10px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+.right{
+	width:50%;
+	height:auto;
+	margin:1.5% 0 0 27%;
+	padding:0;
+	float:left;}
+.followlogo{
+	width:100%;
+	height:auto;
+	float:left;
+	margin:0;
+	padding:0;
+	text-align: center;}
+.followlogo p{
+	font-family:"Campton Light DEMO";
+	color: #FFFFFF;
+	font-size:25px;}
+.social{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;}
+.twitter{
+	width:33.3%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;}
+.twitter img{
+	width:100%;
+	height:auto;}
+.facebook{
+	width:33.3%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;}
+.facebook img{
+	width:100%;
+	height:auto;}
+.instagram{
+	width:33.3%;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;}
+.instagram img{
+	width:100%;
+	height:auto;}
+.drink{
+	width:80%;
+	height:auto;
+	position: relative;
+	margin:0;
+	padding:19% 0 0 12%;
+	float:left;}
+.drink img{
+	width:100%;
+	height:auto;}
+
+/*LINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UPLINE-UP*/
+
+
+	#lineup{
+		height:700px;
+	}
+.bands{
+	width:100%;
+	height:600px;
+	margin:auto;
+	position: relative;
+	transform: translate(0,30%)
+}
+.bands img{
+	width:100%;
+	height:380px;
+	
+	}}
 
 
 
